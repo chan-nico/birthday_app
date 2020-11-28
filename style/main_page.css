@@ -1,0 +1,343 @@
+@charset "UTF-8";
+
+body {
+    margin: 0 auto;
+}
+
+/* --------------------------------------------------------------------- */
+
+@media screen and (max-width:559px) {
+    section {
+        max-width: 559px;
+        margin: 0 auto;
+    }
+    
+    .month_display {
+        text-align: center;
+        font-size: 12px;
+    }
+    
+    .red {
+        color: red;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .under_bar {
+        border-bottom: 2px #305089 solid;
+        display: inline-block;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .list_box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0;
+        font-size: 7px;
+    }
+    
+    .img_box {
+        width: 40px;
+        display: flex;
+        align-items: center;
+        margin-left: 5px;
+    }
+    
+    .img_box img{
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+        border: 2px solid #305089;
+    }
+
+    .contents_box {
+        max-width: 459px;
+        min-width: 220px;
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: left;
+    }
+
+    .list_data_box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px dashed #000 ;
+    }
+
+    .name {
+        max-width: 349px;
+        min-width: 110px;
+        width: 100%;
+    }
+    
+    .birthday {
+        width: 100px;
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 10px;
+    }
+    
+    .year {
+        width: 40px;
+        margin-right: 3px;
+        text-align: right;
+    }
+    
+    .month {
+        width: 25px;
+        margin-right: 3px;
+        text-align: right;
+    }
+    
+    .day {
+        width: 25px;
+        text-align: right;
+    }
+    
+    .submit_box {
+        width: 30px;
+        margin-right: 5px;
+    }
+
+    .edit_button {
+        width: 30px;
+        padding: 5px 0 5px 0;
+    }
+    
+    .delete_button {
+        width: 30px;
+        padding: 5px 0 5px 0;
+    }
+
+    .button {
+        width: 30px;
+        font-size: 6px;
+        padding: 0;
+    }
+    
+    hr {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+/* --------------------------------------------------------------------- */
+
+@media screen and (min-width:560px) and (max-width:959px) {
+    section {
+        min-width: 560px;
+        margin: 0 auto;
+    }
+    
+    .month_display {
+        text-align: center;
+    }
+    
+    .red {
+        color: red;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    
+    .under_bar {
+        border-bottom: 2px #305089 solid;
+        display: inline-block;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    
+    .list_box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0;
+    }
+    
+    .img_box {
+        width: 60px;
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+    
+    .img_box img{
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        border: 2px solid #305089;
+    }
+    
+    .contents_box {
+        max-width: 959px;
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .list_data_box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px dashed #000 ;
+    }
+
+    .name {
+        min-width: 170px;
+    }
+    
+    .birthday {
+        min-width: 210px;
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 10px;
+    }
+    
+    .year {
+        width: 60px;
+        margin-right: 15px;
+        text-align: right;
+    }
+    
+    .month {
+        width: 40px;
+        margin-right: 15px;
+        text-align: right;
+    }
+    
+    .day {
+        width: 40px;
+        text-align: right;
+    }
+        
+    .submit_box {
+        margin-right: 10px;
+    }
+
+    .edit_button {
+        width: 60px;
+        text-align: right;
+        padding: 10px 0 10px 0;
+    }
+    
+    .delete_button {
+        width: 60px;
+        text-align: right;
+        padding: 10px 0 10px 0;
+    }
+    
+    hr {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+/* --------------------------------------------------------------------- */
+
+@media screen and (min-width:960px){
+    
+    section {
+        width: 960px;
+        margin: 0 auto;
+    }
+    
+    .month_display {
+        text-align: center;
+    }
+    
+    .red {
+        color: red;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .under_bar {
+        border-bottom: 2px #305089 solid;
+        display: inline-block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .list_box {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0;
+    }
+    
+    .img_box {
+        width: 60px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .img_box img{
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        border: 2px solid #305089;
+    }
+    
+    .contents_box {
+        display: flex;
+    }
+
+    .list_data_box {
+        display: flex;
+        align-items: center;
+    }
+
+    .name {
+        width: 170px;
+        margin-left: 10px;
+    }
+    
+    .birthday {
+        width: 190px;
+        display: flex;
+        margin-left: 10px;
+    }
+    
+    .year {
+        width: 60px;
+        margin-right: 15px;
+        text-align: right;
+    }
+    
+    .month {
+        width: 40px;
+        margin-right: 15px;
+        text-align: right;
+    }
+    
+    .day {
+        width: 40px;
+        text-align: right;
+    }
+    
+    .comment {
+        width: 400px;
+        
+    }
+    
+    .submit_box {
+        display: flex;
+    }
+
+    .edit_button {
+        width: 60px;
+        text-align: right;
+        padding: 20px 0 20px 0;
+    }
+    
+    .delete_button {
+        width: 60px;
+        text-align: right;
+        padding: 20px 0 20px 0;
+    }
+    
+    hr {
+        margin-top: 0;
+    }
+}
