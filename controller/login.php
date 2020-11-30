@@ -88,7 +88,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             exit;
         }
     } else {
-        
+        header(location_func() . 'logout.php');
+        exit;
     }
 }
 
