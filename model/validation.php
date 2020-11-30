@@ -10,7 +10,7 @@ function get_csrf_token()
 // header
 function location_func()
 {
-    return 'Location: http://localhost/birthday_app/controller/';
+    return 'Location: http://54.65.38.188/var/www/html/birthday_app/controller/';
 }
 
 // エンティティ処理
