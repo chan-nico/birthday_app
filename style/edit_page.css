@@ -2,6 +2,8 @@
 
 body {
     margin: 0 auto;
+    -webkit-text-size-adjust: 100%;
+    font-family: "Yu Gothic Medium","遊ゴシック Medium",YuGothic,"遊ゴシック体","ヒラギノ角ゴ Pro W3",sans-serif;
 }
 
 @media screen and (max-width:559px) {
@@ -10,6 +12,7 @@ body {
         width: 320px;
         text-align: center;
         font-size: 12px;
+	padding-top: 113px;
     }
     
     .under_bar {
@@ -64,12 +67,13 @@ body {
     }
 }
 
-@media screen and (min-width:560px) {
+@media screen and (min-width:560px) and (max-width:959px) {
 
     section {
         margin: 0 auto;
         width: 400px;
         text-align: center;
+	padding-top: 136px;
     }
     
     .under_bar {
@@ -77,6 +81,61 @@ body {
         display: inline-block;
     }
     
+    .img_box {
+        margin-top: 20px;
+    }
+    
+    .img_box img {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        border: 5px solid #305089;
+    }
+    
+    .name_box {
+        width:400px;
+    }
+    
+    .name_box p {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    
+    .name_box input {
+        width: 250px;
+    }
+    
+    .birthday_box p {
+        margin-bottom: 5px;
+    }
+    
+    .comment_box p {
+        margin-bottom: 5px;
+    }
+    
+    .comment_box input {
+        width: 260px;
+    }
+    
+    .button {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width:960px){
+    section {
+        margin: 0 auto;
+        width: 400px;
+        text-align: center;
+        padding-top: 115px;
+    }
+
+    .under_bar {
+        border-bottom: 2px #305089 solid;
+        display: inline-block;
+    }
+
     .img_box {
         margin-top: 20px;
     }

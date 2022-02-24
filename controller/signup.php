@@ -1,6 +1,6 @@
 <?php
 
-require_once '../conf/const2.php';
+require_once '../conf/const.php';
 require_once '../model/validation.php';
 require_once '../model/db_function.php';
 

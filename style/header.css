@@ -2,11 +2,21 @@
 
 header {
     background-color : #305089;
+    -webkit-text-size-adjust: 100%;
+    font-family: "Yu Gothic Medium","遊ゴシック Medium",YuGothic,"遊ゴシック体","ヒラギノ角ゴ Pro W3",sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 /* ----------------------------------------------------------------- */
 
 @media screen and (max-width:559px) {
+    header {
+	width: 100%;
+        height: 113px;
+    }
+
     .header_box {
         width: 310px;
         margin : 0 auto;
@@ -177,6 +187,11 @@ header {
 /* ----------------------------------------------------------------- */
 
 @media screen and (min-width:560px) and (max-width:959px) {
+    header {
+	width: 100%;
+	height: 136px;
+    }
+
     .header_box {
         max-width : 560px;
         margin : 0 auto;
@@ -350,6 +365,10 @@ header {
 /* ----------------------------------------------------------------- */
 
 @media screen and (min-width:960px){
+    header {
+        width: 100%;
+        height: 115px;
+    }
 
     .header_box {
         max-width : 960px;

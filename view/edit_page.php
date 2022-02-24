@@ -10,6 +10,7 @@
     <title>誕生日手帳</title>
     <link rel="stylesheet" href="../style/header.css">
     <link rel="stylesheet" href="../style/edit_page.css">
+    <link href="https://fonts.googleapis.com/css?family=philosopher" rel="stylesheet">
     <script
         src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="

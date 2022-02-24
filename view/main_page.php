@@ -10,6 +10,7 @@
     <title>誕生日手帳</title>
     <link rel="stylesheet" href="../style/header.css">
     <link rel="stylesheet" href="../style/main_page.css">
+    <link href="https://fonts.googleapis.com/css?family=philosopher" rel="stylesheet">
     <script
         src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
@@ -71,13 +72,13 @@
                     <form action="edit.php" method="post" class="edit_button">
                         <input type="hidden" name="list_id" value="<?php echo $value['list_id']; ?>">
                         <input type="hidden" name="csrf_token" value="<?php echo $csrf_token; ?>">
-                        <input type="submit" class="button" value="編集">
+                        <input type="submit" class="green_button button" value="編集">
                     </form>
                     <form action="main.php" method="post" class="delete_button">
                         <input type="hidden" name="list_id" value="<?php echo $value['list_id']; ?>">
                         <input type="hidden" name="delete_flag" value='true'>
                         <input type="hidden" name="csrf_token" value="<?php echo $csrf_token; ?>">
-                        <input type="submit" class="button" value="削除" onclick="return confirm('削除します。よろしいですか？')">
+                        <input type="submit" class="red_button button" value="削除" onclick="return confirm('削除します。よろしいですか？')">
                     </form>
                 </div>
             </div>
